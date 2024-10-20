@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Abhimanyu Chaubey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('image/BackgroundImage2.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh; /* Ensure the body takes up the full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white; /* Ensure text is visible */
+            text-align: center;
+        }
+
+        /* Container Styles */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Content Styles */
+        .content {
+             background: rgba(255, 255, 255, 0.2); /* Semi-transparent background for contrast */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Form Styles */
+        .searchInput {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        #searchInput {
+            padding: 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+
+        #searchButton {
+            padding: 10px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+
+        #searchButton i {
+            font-size: 1.2em;
+        }
+
+        h1, h3 {
+            margin: 0;
+            padding: 10px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for better visibility */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Welcome to the Weather Web App</h1>
+            <h3>Made by Abhimanyu Chaubey</h3>
+            <form action="MyServlet" method="post" class="searchInput">
+                <input type="text" placeholder="Enter City Name" id="searchInput" name="city"/>
+                <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

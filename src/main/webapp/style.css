@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('image/BackgroundImage2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ff8040; /* Darker color for better contrast */
+}
+
+h1, h3 {
+    margin: 0;
+    padding: 10px 0;
+    color: #fff; /* White color for better contrast against the blue sky */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for better visibility */
+}
+
+h2 {
+    margin: 0;
+    color: #fff; /* White color for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for better visibility */
+}
+
+/* Container Styles */
+.mainContainer {
+    background: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    color: #fff; /* White color for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for better visibility */
+}
+
+/* Form Styles */
+.searchInput {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+#searchButton {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#searchButton i {
+    font-size: 1.2em;
+}
+
+.weatherDetails {
+    text-align: center;
+    color: #fff; /* White color for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for better visibility */
+}
+
+.weatherIcon img {
+    width: 100px;
+}
+
+.weatherIcon h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.cityDetails .desc {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.windDetails {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.windDetails div {
+    text-align: center;
+    color: #fff; /* White color for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for better visibility */
+}
+
+.windDetails img {
+    width: 50px;
+    margin-bottom: 10px;
+}
