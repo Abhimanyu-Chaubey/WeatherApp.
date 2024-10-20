@@ -1,0 +1,3 @@
+Overview The Weather App is a web application that provides real-time weather updates based on user-provided location information. It utilizes HTML, CSS, JavaScript, JSP, and Servlet technologies to fetch weather data from a remote API and present it in an intuitive user interface.
+
+Features Current Weather: Display of current temperature, humidity, wind speed, and conditions. Forecast: day weather forecast for the user's location. Search: Ability for users to enter their location and retrieve weather information. Responsive Design: Ensures usability across different devices and screen sizes. Technologies Used Frontend: HTML, CSS, JavaScript Backend: Java Servlets, JSP API: Integration with a open weather API
